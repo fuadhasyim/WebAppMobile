@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisata">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata">
+        <activity android:name=".About"></activity>
+        <activity android:name=".Kampoong" />
+        <activity android:name=".Pondok" />
+        <activity android:name=".Ertiga" />
+        <activity android:name=".Alphard" />
+        <activity android:name=".Avanza" />
+        <activity android:name=".PaketTransportasi" />
+        <activity android:name=".Booking" />
+        <activity android:name=".Paket2H" />
+        <activity android:name=".Paket1H" />
+        <activity android:name=".PaketWisata" />
+        <activity android:name=".MonkeyForest" />
+        <activity android:name=".Terrace" />
+        <activity android:name=".PuraTirta" />
+        <activity android:name=".gwkBali" />
+        <activity android:name=".PantaiPandawa" />
+        <activity android:name=".DestinasiWisata" />
+        <activity android:name=".MenuUtama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
